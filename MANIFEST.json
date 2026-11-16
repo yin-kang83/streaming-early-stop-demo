@@ -12,7 +12,6 @@
     ".gitignore": "9ca2552416db8e6eefcee9f7be5bde3c1656a431e1a69d78f35c1f1ba9ef7188",
     "ARCHIVE.md": "7e8a550e6189cdd78fec4a76b4ffa496d65529a2cb89f1dc35ad40627c492715",
     "CITATION.cff": "ba4c6999ca3013927ea8999874b27f7ca02aa1e0cd00d26c0525e1712e96a3f0",
-    "DLP-SCAN-LEAD.json": "8abade2ff96b35b3040922a95196064b33fced5c5cf9304eb35255f1d1ef189a",
     "LICENSE": "9ecd3b3463b1144bb887d2ab7bc42897ad2cdea7f8a023c3f6800fdd0384deeb",
     "README.md": "c3e3c79cd95404eb396e3578780a19db6c3e55b0af30cc5d34f66e8478c418cd",
     "RELEASE-NOTES.md": "bc63d6199f3c3736e8374e4e953eee0e083bb64fca347aed92954e06c9208b97",
@@ -32,6 +31,6 @@
     "tests/test_streaming_early_stop_demo.py": "1a27c8f80a17969f15368c569997180f04a20229a8e7c67c73e0fd07c71d5d2b",
     "tools/check_public_release.py": "a4a6095d9f5eff67f146579f9ace4f93194c9a61f6956cc452d881a342478b0b"
   },
-  "count": 22,
+  "count": 21,
   "note": "SHA256 of all tracked files except MANIFEST.json and CHECKSUMS."
 }
