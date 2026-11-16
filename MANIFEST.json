@@ -6,9 +6,12 @@
   "license_note": "Code MIT; report/demo/plan/data/docs CC BY 4.0",
   "files": {
     ".gitignore": "9ca2552416db8e6eefcee9f7be5bde3c1656a431e1a69d78f35c1f1ba9ef7188",
-    "CITATION.cff": "30609a0f85b32a90f3c896f1b0a73934d139ff0cceacf91f7deaf3c3484fa32b",
+    "CITATION.cff": "8adea973dae2404181fcb620faa96b007b28205b16c5c01c843ac2c5e25b0f42",
+    "DLP-SCAN-LEAD.json": "8abade2ff96b35b3040922a95196064b33fced5c5cf9304eb35255f1d1ef189a",
     "LICENSE": "9ecd3b3463b1144bb887d2ab7bc42897ad2cdea7f8a023c3f6800fdd0384deeb",
-    "README.md": "8e92e1f93dc2f2e5a3fc2690d5d72a3d640222d63f706af71daf786726c5ad6a",
+    "README.md": "71c4b0b19156bc1b079967d57fb58257fa7a2367cc274651237e4925f98405a2",
+    "RELEASE-NOTES.md": "bd1ec01f9755d99e6030bfb64f994ec903dfc0d6ddf8b416b47777bc2e604d6c",
+    "RELEASE-streaming-early-stop-demo-v0.1.zip": "f69e90cd81f391a4be90ec4e9f65b0f47f0c9bbf8f71f8632309aa2b26638cd7",
     "REPORT-LICENSE.md": "3eb942517831ae3e3eae2be79e65033d296368871167bb5ec0fa9917820d6258",
     "code/llm_protocols.py": "0b0c94e39da1c83df0fcfd462295f016e72e1ebfceb2cc56d3b65abc2da03591",
     "code/streaming_early_stop_demo.py": "7657e7391fb947e5441e786a3be1f57748969ae060a3a163ae5242b4979feec0",
@@ -22,9 +25,8 @@
     "report/report.pdf": "7bdbe1dfd525e313ddc65a5abb04c2a04fd0e1cff72783dc8ff71c9fb1305c2a",
     "tests/test_llm_protocols.py": "8743ce5c1aa4cb3ac86fcc030fcaffb5b5878d9a75393f2bc27562f34504a18f",
     "tests/test_streaming_early_stop_demo.py": "1a27c8f80a17969f15368c569997180f04a20229a8e7c67c73e0fd07c71d5d2b",
-    "tools/check_public_release.py": "a4a6095d9f5eff67f146579f9ace4f93194c9a61f6956cc452d881a342478b0b",
-    "RELEASE-NOTES.md": "052e8f89a3993e8660fd78359f8a7fcfc6bfc3ef395124af607ce0e8a2bb49e7"
+    "tools/check_public_release.py": "a4a6095d9f5eff67f146579f9ace4f93194c9a61f6956cc452d881a342478b0b"
   },
-  "count": 19,
+  "count": 21,
   "note": "SHA256 of all tracked files except MANIFEST.json and CHECKSUMS."
 }

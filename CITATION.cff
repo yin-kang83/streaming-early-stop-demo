@@ -8,7 +8,7 @@ license: "CC-BY-4.0"
 authors:
   - family-names: Yin
     given-names: Kang
-    affiliation: ""
+    affiliation: "Independent Researcher"
     orcid: ""
 abstract: >-
   A small-sample, single-model, single-run engineering study of early stopping in streaming step-level

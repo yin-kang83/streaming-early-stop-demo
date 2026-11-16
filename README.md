@@ -2,6 +2,8 @@
 
 **Public research release v0.1 · 2026-11-16**
 
+**Author**: Yin Kang — independent researcher (no institutional affiliation).
+
 **DOI (Zenodo)**: [10.5281/zenodo.24269158](https://doi.org/10.5281/zenodo.24269158)
 
 > English below · 中文见后半部分
