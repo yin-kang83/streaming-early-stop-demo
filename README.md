@@ -2,7 +2,8 @@
 
 **Public research release v0.1 · 2026-11-16**
 
-**Author**: Yin Kang — independent researcher (no institutional affiliation).
+**Author**: Yin Kang — independent researcher (no institutional affiliation).  
+**ORCID**: [0009-0001-2723-1293](https://orcid.org/0009-0001-2723-1293)
 
 **DOI (Zenodo)**: [10.5281/zenodo.24269158](https://doi.org/10.5281/zenodo.24269158)
 

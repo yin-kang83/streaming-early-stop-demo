@@ -9,7 +9,7 @@ authors:
   - family-names: Yin
     given-names: Kang
     affiliation: "Independent Researcher"
-    orcid: ""
+    orcid: "https://orcid.org/0009-0001-2723-1293"
 abstract: >-
   A small-sample, single-model, single-run engineering study of early stopping in streaming step-level
   verification. Reports trigger rate, estimated token/latency savings, mis-stop rate and replay consistency,

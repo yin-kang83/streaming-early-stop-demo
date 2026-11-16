@@ -14,3 +14,5 @@
 - **AI usage disclosure**: AI-assisted preparation (drafting/formatting/code scaffolding); author reviewed and is responsible; no raw outputs/questions/customer data/credentials included; not peer-reviewed; no SOTA/accuracy claim.
 - **Concept DOI**: 10.5281/zenodo.24269157 (all versions) / **Version DOI**: 10.5281/zenodo.24269158 (v0.1).
 - **Software Heritage archival**: pending (request via SWH Save Code Now; no Gitee webhook).
+
+- **Author ORCID**: https://orcid.org/0009-0001-2723-1293
