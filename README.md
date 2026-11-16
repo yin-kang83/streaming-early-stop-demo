@@ -117,3 +117,17 @@ step events? A minimum publishable run is estimated at **244 API calls / 265,359
 **复现**：`python code/streaming_early_stop_demo.py --json`（0 API）；`python -m pytest tests/ -q`；`python tools/check_public_release.py`（出域自检，需要 pypdf 扫描 PDF 文本）。
 
 **许可与引用**：代码 MIT；报告/数据/文档 CC BY 4.0；作者 Yin Kang（单位/ORCID 留空）；引用模板见上（DOI 待填）。
+
+## AI usage disclosure
+
+This release was prepared with AI assistance (drafting, formatting, code scaffolding, review checklists).
+All experiment numbers come from local, re-runnable scripts and archived aggregates; the author reviewed and
+takes responsibility for all content. No raw model outputs, benchmark questions, customer data, or credentials
+are included. **Not peer-reviewed; no SOTA, accuracy, priority or production-readiness claim.**
+
+## Archival & identifiers (v0.1)
+
+- Zenodo version DOI: [10.5281/zenodo.24269158](https://doi.org/10.5281/zenodo.24269158) (concept DOI: 10.5281/zenodo.24269157)
+- Code repository (Gitee mirror): https://gitee.com/yin-kang83/streaming-early-stop-demo
+- Release artifact: `RELEASE-streaming-early-stop-demo-v0.1.zip` with SHA256 in `MANIFEST.json` / `CHECKSUMS`
+- Long-term software archive (Software Heritage): *pending* (Gitee has no webhook; request via Save Code Now)
