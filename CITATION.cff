@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the metadata below. DOI is a placeholder until a DOI exists."
+title: "Streaming Early-Stop for Step-Level LLM Verification: A Minimal Reproducible Study"
+type: software
+version: "0.1"
+date-released: "2026-11-16"
+license: "CC-BY-4.0"
+authors:
+  - family-names: Yin
+    given-names: Kang
+    affiliation: ""
+    orcid: ""
+abstract: >-
+  A small-sample, single-model, single-run engineering study of early stopping in streaming step-level
+  verification. Reports trigger rate, estimated token/latency savings, mis-stop rate and replay consistency,
+  plus a zero-API replay demo and an open call for collaboration. No performance, accuracy, first or SOTA claim.
+keywords:
+  - streaming verification
+  - early stopping
+  - fail-closed
+  - step-level verification
+  - reproducible research
+repository-code: ""
+url: ""
+doi: ""

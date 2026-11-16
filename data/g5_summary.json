@@ -1,0 +1,124 @@
+{
+  "schema": "api-protocol-summary/v1",
+  "source_task": "G5 (2026-11-16)",
+  "seed": 20261116,
+  "problems": 40,
+  "calls_total": 120,
+  "api_budget": 120,
+  "protocols": {
+    "chat": {
+      "requested_model": "deepseek-chat",
+      "returned_models": [
+        "deepseek-flash"
+      ],
+      "calls": 40,
+      "success": 40,
+      "success_rate": 1.0,
+      "final_answer_parsable": 40,
+      "final_answer_parsable_rate": 1.0,
+      "answer_status": {
+        "consistent": 35,
+        "inconsistent": 4,
+        "unknown": 1,
+        "missing": 0
+      },
+      "answer_consistency_rate": 0.875,
+      "stream_terminator_rate": 1.0,
+      "stream_events_mean": 140.95,
+      "latency_s": {
+        "mean": 1.29,
+        "p50": 1.245,
+        "p95": 1.762
+      },
+      "first_token_s": {
+        "n": 40,
+        "mean": 0.651,
+        "p50": 0.675,
+        "p95": 0.87
+      },
+      "tokens": {
+        "input": 46000,
+        "output": 5518
+      },
+      "failures": {}
+    },
+    "responses": {
+      "requested_model": "deepseek-flash",
+      "returned_models": [
+        "deepseek-flash"
+      ],
+      "calls": 40,
+      "success": 35,
+      "success_rate": 0.875,
+      "final_answer_parsable": 35,
+      "final_answer_parsable_rate": 0.875,
+      "answer_status": {
+        "consistent": 34,
+        "inconsistent": 0,
+        "unknown": 1,
+        "missing": 0
+      },
+      "answer_consistency_rate": 0.9714,
+      "stream_terminator_rate": 0.875,
+      "stream_events_mean": 842.52,
+      "latency_s": {
+        "mean": 5.296,
+        "p50": 3.979,
+        "p95": 12.036
+      },
+      "first_token_s": {
+        "n": 36,
+        "mean": 4.209,
+        "p50": 3.192,
+        "p95": 9.566
+      },
+      "tokens": {
+        "input": 41162,
+        "output": 23237
+      },
+      "failures": {
+        "EMPTY_TEXT": 4,
+        "STREAM_INCOMPLETE": 1
+      }
+    },
+    "anthropic": {
+      "requested_model": "claude-3-5-sonnet-20241022",
+      "returned_models": [
+        "claude-3-5-sonnet-20241022"
+      ],
+      "calls": 40,
+      "success": 37,
+      "success_rate": 0.925,
+      "final_answer_parsable": 36,
+      "final_answer_parsable_rate": 0.9,
+      "answer_status": {
+        "consistent": 36,
+        "inconsistent": 0,
+        "unknown": 0,
+        "missing": 0
+      },
+      "answer_consistency_rate": 1.0,
+      "stream_terminator_rate": 1.0,
+      "stream_events_mean": 889.77,
+      "latency_s": {
+        "mean": 5.436,
+        "p50": 3.809,
+        "p95": 11.966
+      },
+      "first_token_s": {
+        "n": 37,
+        "mean": 4.514,
+        "p50": 3.246,
+        "p95": 10.286
+      },
+      "tokens": {
+        "input": 7076,
+        "output": 35274
+      },
+      "failures": {
+        "EMPTY_TEXT": 3
+      }
+    }
+  },
+  "data_note": "Aggregated/derived statistics only; no problem text, answers, prompts, raw model output or private paths. Small-sample, single-model, single-run engineering observation; not a performance benchmark."
+}
