@@ -3,6 +3,7 @@
 - **Zenodo DOI**: 10.5281/zenodo.24269158
 - **DOI URL**: https://doi.org/10.5281/zenodo.24269158
 - **Record**: https://zenodo.org/records/24269158
+- **Public code repository (Gitee)**: https://gitee.com/yin-kang83/streaming-early-stop-demo
 - **Published**: 2026-11-16
 - **License**: code MIT; report/demo/plan/data/docs CC BY 4.0
 - **Zenodo files**: `streaming-early-stop-demo-v0.1.zip` (self-contained package), `streaming-early-stop-demo-report.pdf`

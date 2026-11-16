@@ -6,6 +6,8 @@
 
 **DOI (Zenodo)**: [10.5281/zenodo.24269158](https://doi.org/10.5281/zenodo.24269158)
 
+**Code repository (Gitee mirror)**: https://gitee.com/yin-kang83/streaming-early-stop-demo
+
 > English below · 中文见后半部分
 >
 > **Status**: independent, small-sample engineering study; **not** a peer-reviewed paper and **not** a

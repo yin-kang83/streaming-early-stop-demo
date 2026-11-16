@@ -20,6 +20,6 @@ keywords:
   - fail-closed
   - step-level verification
   - reproducible research
-repository-code: ""
+repository-code: "https://gitee.com/yin-kang83/streaming-early-stop-demo"
 url: "https://zenodo.org/records/24269158"
 doi: "10.5281/zenodo.24269158"
