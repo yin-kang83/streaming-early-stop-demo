@@ -69,7 +69,7 @@ _SECRET = re.compile(
     r"password\s*[:=]\s*\S+|BEGIN [A-Z ]*PRIVATE KEY)")
 _EMAIL = re.compile(r"(?i)\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b")
 _PROMPT_RAW = re.compile(
-    r"(?i)(?:problem_statement|question_text|\"question\"\s*:|\"problem\"\s*:|/raw/|\\\\raw\\\\)|" +
+    r"(?i)(?:problem_statement|question_text|\"question\"\s*:|\"problem\"\s*:|/raw/)" +
     "|".join(re.escape(x) for x in _PRIVATE_FRAG), re.I)
 _TOOL_PATH = re.compile(r"(?i)(^|[\s\"'`(])(?:eval|scripts|docs|var)/")
 _DOI = re.compile(r"(?i)10\.\d{4,9}/zenodo\.\d+")

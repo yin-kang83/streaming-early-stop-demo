@@ -600,7 +600,7 @@ def compare_command(args: argparse.Namespace) -> int:
     if planned > budget:
         raise SystemExit(f"计划调用 {planned} 超出预算 {budget}（失败即停）")
     builder = _load_build()
-    system = cb.STEP157_SYSTEM_V2
+    system = STEP_JSON_SYSTEM_PROMPT
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     raw_path = Path(args.raw)
     records: list[dict[str, Any]] = []
@@ -673,7 +673,7 @@ def compare_command(args: argparse.Namespace) -> int:
         "api_budget": budget,
         "elapsed_s": round(time.time() - started, 1),
         "protocol_models": PROTOCOL_MODELS,
-        "prompt_template": "local_corpus/coverage_baseline.py#STEP157_SYSTEM_V2（coverage-step/v2+final_answer；跨协议同一 prompt）",
+        "prompt_template": "a fixed step-structured system instruction (not included in this release); same prompt across protocols",
         "raw_path": "local-archive git）",
         "data_note": "无题干/答案原文；逐题仅 id/hash/统计/判定状态；raw 文本（模型输出）只在 a private archive。",
         "protocols_result": aggregates,
