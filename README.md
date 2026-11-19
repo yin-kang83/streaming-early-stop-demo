@@ -9,6 +9,8 @@
 
 **Code repository (Gitee mirror)**: https://gitee.com/yin-kang83/streaming-early-stop-demo
 
+**Related discussion (DeepSeek API issue #1781)**: https://github.com/deepseek-ai/DeepSeek-V3/issues/1781
+
 > English below · 中文见后半部分
 >
 > **Status**: independent, small-sample engineering study; **not** a peer-reviewed paper and **not** a
@@ -88,7 +90,7 @@ step events? A minimum publishable run is estimated at **244 API calls / 265,359
 - Code: **MIT** — see `LICENSE`.
 - Report, demo, plan, data and documentation: **CC BY 4.0** — see `REPORT-LICENSE.md`.
 
-## Citation (DOI placeholder)
+## Citation
 
 ```bibtex
 @misc{streaming_early_stop_demo_2026,
@@ -97,7 +99,7 @@ step events? A minimum publishable run is estimated at **244 API calls / 265,359
   year         = {2026},
   version      = {v0.1},
   howpublished = {Public research repository},
-  note         = {DOI: TBD; single-model/single-run small sample; not a performance claim}
+  note         = {DOI: 10.5281/zenodo.24269158; single-model/single-run small sample; not a performance claim}
 }
 ```
 
@@ -117,7 +119,7 @@ step events? A minimum publishable run is estimated at **244 API calls / 265,359
 
 **复现**：`python code/streaming_early_stop_demo.py --json`（0 API）；`python -m pytest tests/ -q`；`python tools/check_public_release.py`（出域自检，需要 pypdf 扫描 PDF 文本）。
 
-**许可与引用**：代码 MIT；报告/数据/文档 CC BY 4.0；作者 Yin Kang（单位/ORCID 留空）；引用模板见上（DOI 待填）。
+**许可与引用**：代码 MIT；报告/数据/文档 CC BY 4.0；作者 Yin Kang（单位/ORCID 留空）；引用模板见上（DOI: 10.5281/zenodo.24269158）。
 
 ## AI usage disclosure
 
@@ -130,5 +132,6 @@ are included. **Not peer-reviewed; no SOTA, accuracy, priority or production-rea
 
 - Zenodo version DOI: [10.5281/zenodo.24269158](https://doi.org/10.5281/zenodo.24269158) (concept DOI: 10.5281/zenodo.24269157)
 - Code repository (Gitee mirror): https://gitee.com/yin-kang83/streaming-early-stop-demo
+- Related discussion (DeepSeek API issue #1781): https://github.com/deepseek-ai/DeepSeek-V3/issues/1781
 - Release artifact: `RELEASE-streaming-early-stop-demo-v0.1.zip` with SHA256 in `MANIFEST.json` / `CHECKSUMS`
 - Long-term software archive (Software Heritage): *pending* (Gitee has no webhook; request via Save Code Now)
