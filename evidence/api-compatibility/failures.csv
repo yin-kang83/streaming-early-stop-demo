@@ -1,0 +1,9 @@
+﻿protocol,dataset,problem_id,error_class,text_chars,final_answer_parsable,finish_reason,latency_s,first_token_s,stream_events,stream_terminator,usage
+anthropic,math-hendrycks,math-hendrycks:mirror-full-12500:10488,EMPTY_TEXT,0,False,max_tokens,11.908,,2007,True,"{""input"": 135, ""output"": 2000}"
+responses,math-hendrycks,math-hendrycks:mirror-full-12500:65,EMPTY_TEXT,0,False,,11.408,,2008,False,"{""input"": 0, ""output"": 0}"
+responses,math-hendrycks,math-hendrycks:mirror-full-12500:7487,STREAM_INCOMPLETE,138,False,,10.386,10.3376,2012,False,"{""input"": 0, ""output"": 0}"
+responses,math-hendrycks,math-hendrycks:mirror-full-12500:8824,EMPTY_TEXT,0,False,,13.951,,2008,False,"{""input"": 0, ""output"": 0}"
+responses,math-hendrycks,math-hendrycks:mirror-full-12500:9582,EMPTY_TEXT,0,False,,12.45,,2008,False,"{""input"": 0, ""output"": 0}"
+responses,math-hendrycks,math-hendrycks:mirror-full-12500:3373,EMPTY_TEXT,0,False,,12.036,,2008,False,"{""input"": 0, ""output"": 0}"
+anthropic,math-hendrycks,math-hendrycks:mirror-full-12500:3373,EMPTY_TEXT,0,False,max_tokens,12.832,,2007,True,"{""input"": 145, ""output"": 2000}"
+anthropic,math-hendrycks,math-hendrycks:mirror-full-12500:2809,EMPTY_TEXT,0,False,max_tokens,11.966,,2007,True,"{""input"": 163, ""output"": 2000}"
