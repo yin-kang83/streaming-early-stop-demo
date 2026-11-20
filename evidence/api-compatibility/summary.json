@@ -1,0 +1,136 @@
+{
+  "source": "task-180",
+  "created": "2026-11-16T02:45:03Z",
+  "calls_total": 120,
+  "protocol_models": {
+    "chat": "deepseek-chat",
+    "responses": "deepseek-flash",
+    "anthropic": "claude-3-5-sonnet-20241022"
+  },
+  "protocols_result": {
+    "chat": {
+      "protocol": "chat",
+      "requested_model": "deepseek-chat",
+      "returned_models": [
+        "deepseek-flash"
+      ],
+      "calls": 40,
+      "success": 40,
+      "success_rate": 1.0,
+      "final_answer_parsable": 40,
+      "final_answer_parsable_rate": 1.0,
+      "answer_status": {
+        "consistent": 35,
+        "inconsistent": 4,
+        "unknown": 1,
+        "missing": 0
+      },
+      "answer_consistency_rate": 0.875,
+      "stream_terminator_rate": 1.0,
+      "stream_events_mean": 140.95,
+      "latency_s": {
+        "mean": 1.29,
+        "p50": 1.245,
+        "p95": 1.762
+      },
+      "first_token_s": {
+        "n": 40,
+        "mean": 0.651,
+        "p50": 0.675,
+        "p95": 0.87
+      },
+      "tokens": {
+        "input": 46000,
+        "output": 5518
+      },
+      "failures": {}
+    },
+    "responses": {
+      "protocol": "responses",
+      "requested_model": "deepseek-flash",
+      "returned_models": [
+        "deepseek-flash"
+      ],
+      "calls": 40,
+      "success": 35,
+      "success_rate": 0.875,
+      "final_answer_parsable": 35,
+      "final_answer_parsable_rate": 0.875,
+      "answer_status": {
+        "consistent": 34,
+        "inconsistent": 0,
+        "unknown": 1,
+        "missing": 0
+      },
+      "answer_consistency_rate": 0.9714,
+      "stream_terminator_rate": 0.875,
+      "stream_events_mean": 842.52,
+      "latency_s": {
+        "mean": 5.296,
+        "p50": 3.979,
+        "p95": 12.036
+      },
+      "first_token_s": {
+        "n": 36,
+        "mean": 4.209,
+        "p50": 3.192,
+        "p95": 9.566
+      },
+      "tokens": {
+        "input": 41162,
+        "output": 23237
+      },
+      "failures": {
+        "EMPTY_TEXT": 4,
+        "STREAM_INCOMPLETE": 1
+      }
+    },
+    "anthropic": {
+      "protocol": "anthropic",
+      "requested_model": "claude-3-5-sonnet-20241022",
+      "returned_models": [
+        "claude-3-5-sonnet-20241022"
+      ],
+      "calls": 40,
+      "success": 37,
+      "success_rate": 0.925,
+      "final_answer_parsable": 36,
+      "final_answer_parsable_rate": 0.9,
+      "answer_status": {
+        "consistent": 36,
+        "inconsistent": 0,
+        "unknown": 0,
+        "missing": 0
+      },
+      "answer_consistency_rate": 1.0,
+      "stream_terminator_rate": 1.0,
+      "stream_events_mean": 889.77,
+      "latency_s": {
+        "mean": 5.436,
+        "p50": 3.809,
+        "p95": 11.966
+      },
+      "first_token_s": {
+        "n": 37,
+        "mean": 4.514,
+        "p50": 3.246,
+        "p95": 10.286
+      },
+      "tokens": {
+        "input": 7076,
+        "output": 35274
+      },
+      "failures": {
+        "EMPTY_TEXT": 3
+      }
+    }
+  },
+  "limitations": [
+    "小样本：40 题（GSM 20 + MATH 20）/协议；单模型目标（flash 映射）、单次运行；不宣称性能优劣。",
+    "chat 走现有模型名 deepseek-chat；Responses 用 deepseek-flash；Anthropic 用 claude-3-5-sonnet*（服务端映射 flash）——模型路由由服务端决定，结果不代表同参数同模型绝对对照。",
+    "Responses API 部分参数会被静默忽略、且无 [DONE]；以 response.completed 判定流式完整性。",
+    "Anthropic 部分字段有限制；thinking/tool_use 未在本实验使用。",
+    "答案一致性用 answer_norm vs 公开集参考答案；参考答案未人工全检，一致≠正确。",
+    "不改变生产评测路径。"
+  ]
+}
